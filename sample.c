@@ -20,5 +20,19 @@ int main() {
 
     printf("You entered: %d\n", number);
 
+    // Standard if-else
+    if (number > 0) {
+        printf("Positive\n");
+    } else if (number < 0) {
+        printf("Negative\n");
+    } else {
+        printf("Zero\n");
+    }
+
+    // for loop
+    for (int i = 1; i <= 5; i++) {
+        printf("%d ", i);
+    }
+
     return 0;
 }
